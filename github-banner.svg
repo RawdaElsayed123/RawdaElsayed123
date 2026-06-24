@@ -1,0 +1,204 @@
+<svg width="900" height="250" viewBox="0 0 900 250" xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+
+<linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#6D28D9"/>
+<stop offset="100%" stop-color="#2E1065"/>
+</linearGradient>
+
+<linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+<stop offset="0%" stop-color="#C084FC"/>
+<stop offset="100%" stop-color="#A855F7"/>
+</linearGradient>
+
+<filter id="glow">
+<feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+<feMerge>
+<feMergeNode in="coloredBlur"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+
+</defs>
+
+<!-- Background -->
+<rect width="900" height="250" fill="url(#bg)"/>
+
+<!-- Card -->
+<rect x="40" y="35"
+width="820"
+height="180"
+rx="20"
+fill="#0A0714"
+stroke="#A855F7"
+stroke-width="2"/>
+
+<!-- Decorative Curves Left -->
+<path d="M60 200 C150 150,150 90,60 40"
+fill="none"
+stroke="#A855F7"
+stroke-width="1.5"
+opacity="0.4"/>
+
+<path d="M80 200 C170 150,170 90,80 40"
+fill="none"
+stroke="#C084FC"
+stroke-width="1"
+opacity="0.3"/>
+
+<!-- Decorative Curves Right -->
+<path d="M840 200 C750 150,750 90,840 40"
+fill="none"
+stroke="#A855F7"
+stroke-width="1.5"
+opacity="0.4"/>
+
+<path d="M820 200 C730 150,730 90,820 40"
+fill="none"
+stroke="#C084FC"
+stroke-width="1"
+opacity="0.3"/>
+
+<!-- Floating Squares -->
+
+<rect x="140" y="90" width="20" height="20" fill="#A855F7">
+<animate attributeName="y"
+values="90;75;90"
+dur="3s"
+repeatCount="indefinite"/>
+</rect>
+
+<rect x="180" y="120" width="15" height="15" fill="#C084FC">
+<animate attributeName="y"
+values="120;105;120"
+dur="2.5s"
+repeatCount="indefinite"/>
+</rect>
+
+<rect x="720" y="90" width="20" height="20" fill="#A855F7">
+<animate attributeName="y"
+values="90;75;90"
+dur="3s"
+repeatCount="indefinite"/>
+</rect>
+
+<rect x="760" y="120" width="15" height="15" fill="#C084FC">
+<animate attributeName="y"
+values="120;105;120"
+dur="2.5s"
+repeatCount="indefinite"/>
+</rect>
+
+<!-- Top Line -->
+<line x1="300" y1="80"
+x2="600" y2="80"
+stroke="#A855F7"
+stroke-width="2"
+filter="url(#glow)"
+stroke-dasharray="300"
+stroke-dashoffset="300">
+
+<animate attributeName="stroke-dashoffset"
+from="300"
+to="0"
+dur="2s"
+fill="freeze"/>
+
+</line>
+
+<!-- Bottom Line -->
+
+<line x1="300" y1="175"
+x2="600" y2="175"
+stroke="#A855F7"
+stroke-width="2"
+filter="url(#glow)"
+stroke-dasharray="300"
+stroke-dashoffset="300">
+
+<animate attributeName="stroke-dashoffset"
+from="300"
+to="0"
+dur="2.5s"
+fill="freeze"/>
+
+</line>
+
+<!-- Glowing Dots -->
+
+<circle cx="450" cy="80" r="4"
+fill="#E9D5FF"
+filter="url(#glow)">
+
+<animate attributeName="opacity"
+values="1;0.3;1"
+dur="2s"
+repeatCount="indefinite"/>
+
+</circle>
+
+<circle cx="450" cy="175" r="4"
+fill="#E9D5FF"
+filter="url(#glow)">
+
+<animate attributeName="opacity"
+values="1;0.3;1"
+dur="2s"
+repeatCount="indefinite"/>
+
+</circle>
+
+<!-- Heading -->
+
+<text x="450"
+y="110"
+text-anchor="middle"
+fill="white"
+font-size="30"
+font-family="Poppins">
+
+Build your
+
+<animate attributeName="opacity"
+from="0"
+to="1"
+dur="1.5s"
+fill="freeze"/>
+
+</text>
+
+<!-- Main Title -->
+
+<text x="450"
+y="150"
+text-anchor="middle"
+fill="url(#textGrad)"
+font-size="40"
+font-weight="700"
+font-family="Poppins"
+filter="url(#glow)">
+
+Machine Learning Career
+
+<animate attributeName="opacity"
+from="0"
+to="1"
+dur="2s"
+fill="freeze"/>
+
+</text>
+
+<!-- Subtitle -->
+
+<text x="450"
+y="195"
+text-anchor="middle"
+fill="#D1D5DB"
+font-size="14">
+
+Learn • Build • Innovate • Inspire
+
+</text>
+
+</svg>
