@@ -197,7 +197,99 @@ text-anchor="middle"
 fill="#D1D5DB"
 font-size="14">
 
-Learn • Build • Innovate • Inspire
+<!-- CONTACT SECTION -->
+
+<!-- Phone -->
+
+<g transform="translate(120,190)">
+
+  <circle cx="0" cy="0" r="20"
+          fill="none"
+          stroke="#A855F7"
+          stroke-width="2"/>
+
+  <text x="-8"
+        y="6"
+        fill="#FFFFFF"
+        font-size="18">
+    ☎
+  </text>
+
+  <text x="35"
+        y="5"
+        fill="#FFFFFF"
+        font-size="14">
+    +20 109 356 9285
+  </text>
+
+</g>
+
+<!-- Separator -->
+
+<line x1="290" y1="170"
+      x2="290" y2="205"
+      stroke="#A855F7"
+      stroke-width="2"
+      opacity="0.6"/>
+
+<!-- Email -->
+
+<g transform="translate(380,190)">
+
+  <circle cx="0" cy="0" r="20"
+          fill="none"
+          stroke="#A855F7"
+          stroke-width="2"/>
+
+  <text x="-10"
+        y="6"
+        fill="#FFFFFF"
+        font-size="18">
+    ✉
+  </text>
+
+  <text x="35"
+        y="5"
+        fill="#FFFFFF"
+        font-size="14">
+    yourmail@gmail.com
+  </text>
+
+</g>
+
+<!-- Separator -->
+
+<line x1="560" y1="170"
+      x2="560" y2="205"
+      stroke="#A855F7"
+      stroke-width="2"
+      opacity="0.6"/>
+
+<!-- LinkedIn -->
+
+<g transform="translate(650,190)">
+
+  <circle cx="0" cy="0" r="20"
+          fill="none"
+          stroke="#A855F7"
+          stroke-width="2"/>
+
+  <text x="-7"
+        y="6"
+        fill="#FFFFFF"
+        font-size="16"
+        font-weight="bold">
+    in
+  </text>
+
+  <text x="35"
+        y="5"
+        fill="#FFFFFF"
+        font-size="14">
+    linkedin.com/in/yourprofile
+  </text>
+
+</g>
 
 </text>
 
